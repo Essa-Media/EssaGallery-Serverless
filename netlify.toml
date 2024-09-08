@@ -1,0 +1,14 @@
+[build]
+publish = "public"
+
+[function]
+directory = "lambda"
+
+[[redirects]]
+    from = "/api/*"
+    to = "/.netlify/functions/:splat"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
