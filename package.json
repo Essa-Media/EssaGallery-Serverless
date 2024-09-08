@@ -10,7 +10,8 @@
     "dev": "npx netlify dev"
   },
   "dependencies": {
-    "@netlify/functions": "^2.8.1"
+    "@netlify/functions": "^2.8.1",
+    "ioredis": "^5.4.1"
   },
   "devDependencies": {
     "netlify-cli": "^17.35.0"
