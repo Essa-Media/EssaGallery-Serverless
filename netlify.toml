@@ -1,11 +1,11 @@
 [build]
 publish = "public"
 
-[function]
-directory = "lambda"
+[functions]
+  directory = "lambda"
 
 [[redirects]]
-    from = "/api/*"
+    from = "/api/gallery/*"
     to = "/.netlify/functions/:splat"
 
 [[headers]]
