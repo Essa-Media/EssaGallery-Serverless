@@ -16,6 +16,10 @@ This return all media for a specified guild.
 }
 ```
 
+`400 Bad Request`: Invalid request format.
+
+`404 Not Found`: No media found for the specified guild.
+
 
 ## Tech stack
 - **Redis** (In-memory data structure store used for caching and managing data)
