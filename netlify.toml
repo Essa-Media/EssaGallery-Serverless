@@ -11,4 +11,4 @@ publish = "public"
 [[headers]]
   for = "/*"
   [headers.values]
-    Access-Control-Allow-Origin = "https://essa-media.github.io/EssaGallery/"
+    Access-Control-Allow-Origin = "*"
